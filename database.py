@@ -14,7 +14,8 @@ def create_tables():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             user_score INTEGER,
             computer_score INTEGER,
-            winner TEXT
+            winner TEXT,
+            status TEXT
         )
     """)
 
